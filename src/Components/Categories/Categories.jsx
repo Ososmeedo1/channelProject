@@ -7,7 +7,6 @@ import furniture from './../../assets/furniture.jpg'
 import shoes from './../../assets/shoes.jpg'
 import Slider from 'react-slick';
 import { GiClothes, GiLinkedRings } from 'react-icons/gi';
-import { PiPicnicTableBold } from 'react-icons/pi';
 import { BiDevices } from 'react-icons/bi';
 
 export default function Categories() {

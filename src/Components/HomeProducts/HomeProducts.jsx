@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import style from './HomeProducts.module.css';
-import test from './../../assets/shoes.avif'
 import { Link } from 'react-router-dom';
 import { FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
 import axios from 'axios';
