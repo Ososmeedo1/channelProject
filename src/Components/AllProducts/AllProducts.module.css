@@ -1,0 +1,50 @@
+.decoration {
+  position: relative;
+}
+
+.decoration::before {
+  content: "";
+  width: 20px;
+  height: 40px;
+  background-color: #DC4245;
+  position: absolute;
+  left: 5px;
+  top: -10px;
+  border-radius: 5px;
+}
+
+.cartButton {
+  position: absolute;
+  bottom: -15%;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.product {
+  transition: all 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.product:hover .cartButton {
+  bottom: 0;
+  opacity: 1;
+  z-index: 99999;
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.price {
+  color: #5b5b5b;
+}

@@ -1,0 +1,31 @@
+/* Global */
+
+@import url('./assets/fonts/fonts.css');
+
+body {
+  overflow-x: hidden;
+}
+
+.first-font {
+  font-family: "first-font";
+}
+
+.second-font {
+  font-family: "second-font";
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Register and Login Inputs */
+
+.input {
+  border: none;
+  border-bottom: 1px solid #989898;
+}
+
+.input:focus {
+  outline: none;
+}
+
